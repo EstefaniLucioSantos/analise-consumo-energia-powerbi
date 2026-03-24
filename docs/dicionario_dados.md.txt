@@ -1,0 +1,9 @@
+- Dicionário de Dados
+
+| Coluna    | Descrição |
+|----------|----------|
+| Cidade    | Nome da cidade |
+| População | Número de habitantes |
+| Consumo   | Consumo de energia |
+| Clima     | Tipo de clima |
+| Indústria | Tipo de indústria |
