@@ -1,36 +1,37 @@
-- Análise de Consumo de Energia por Cidade
+⚡ Análise de Consumo de Energia com Power BI
 
-Contexto de Negócio
-
-Empresas do setor energético precisam prever e entender padrões de consumo para otimizar distribuição, reduzir custos e evitar sobrecarga em períodos críticos.
-
-Este projeto simula um cenário real de análise de dados para identificar os principais fatores que impactam o consumo energético em cidades.
+Projeto de análise de dados desenvolvido com foco em identificar os principais fatores que influenciam o consumo de energia em cidades, apoiando a tomada de decisão no setor energético.
 
 
+- Contexto de Negócio
 
-- Problema
+Empresas do setor de energia enfrentam desafios relacionados à previsão de demanda, distribuição eficiente e redução de custos operacionais.
 
-Quais fatores mais influenciam o consumo de energia nas cidades?
+Compreender os padrões de consumo é essencial para evitar sobrecargas, otimizar recursos e planejar estratégias mais eficientes.
 
-É possível identificar padrões que auxiliem na tomada de decisão e previsão de demanda?
+
+
+- Problema de Negócio
+
+Quais fatores mais impactam o consumo de energia nas cidades?
+
+Como esses fatores podem ser utilizados para melhorar a previsão e a gestão energética?
 
 
 
 - Objetivo
 
-Analisar dados de consumo energético e identificar relações entre variáveis como clima, população e atividade econômica.
+Analisar dados de consumo energético e identificar relações entre variáveis como clima, população e atividade industrial, gerando insights acionáveis.
 
 
 
-- Dados
+-  Base de Dados
 
-Os dados utilizados estão disponíveis em:
+Arquivo: data/Base Energia.xlsx
 
-*data/Base Energia.xlsx
+Contém informações sobre:
 
-Contêm informações como:
-
-* Cidade
+* Cidades
 * População
 * Consumo de energia
 * Clima
@@ -38,15 +39,21 @@ Contêm informações como:
 
 
 
+-  Dashboard
+
+[Visão Geral](images/overview.png)
+[Análise por Clima](images/clima.png)
+[Análise por Indústria](images/industria.png)
 
 
-- Principais Insights
 
-* Cidades com clima extremo apresentam maior consumo energético devido ao uso intensivo de climatização
-* A presença industrial tem maior impacto no consumo do que o tamanho da população
-* O consumo per capita revelou cidades com possível baixa eficiência energética
-* A relação entre população e consumo não é linear
-* Padrões regionais indicam influência de fatores geográficos e estruturais
+💡 Principais Insights
+
+* 🌦️ Cidades com climas extremos apresentam maior consumo energético devido à necessidade de climatização
+* 🏭 A presença industrial tem maior impacto no consumo do que o tamanho da população
+* ⚡ O consumo per capita revelou possíveis ineficiências energéticas em algumas cidades
+* 📈 A relação entre população e consumo não é linear
+* 🌍 Padrões regionais indicam influência de fatores geográficos e estruturais
 
 
 
@@ -59,30 +66,39 @@ Contêm informações como:
 
 
 
-- Ferramentas
+- Ferramentas Utilizadas
 
 * Power BI
-* Excel
+* Microsoft Excel
 * Modelagem de dados
 * Análise exploratória
 
 
 
-- Como executar
+- Como Executar o Projeto
 
-1. Baixe o arquivo: dashboard/Dash Energia.pbix`
+1. Baixe o arquivo:
+ * dashboard/Dash Energia.pbix
 2. Abra no Power BI Desktop
 3. Explore os dashboards interativos
 
 
-- Estrutura do Projeto
 
+- Estrutura do Projeto
 
 data/ → base de dados  
 dashboard/ → arquivo Power BI  
-images/ → prints dos dashboards  
-docs/ → análises complementares  
+images/ → imagens dos dashboards  
+docs/ → documentação e análises  
 
 
 
-Projeto desenvolvido por Estefani Lucio dos Santos para portfólio, com foco em análise de dados.
+
+Sobre o Projeto
+
+Este projeto foi desenvolvido com foco em portfólio, simulando um cenário real de análise de dados para tomada de decisão.
+
+Autor
+
+Estefani Lucio Santos
+
