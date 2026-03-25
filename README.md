@@ -98,7 +98,5 @@ Sobre o Projeto
 
 Este projeto foi desenvolvido com foco em portfólio, simulando um cenário real de análise de dados para tomada de decisão.
 
-Autor
-
-Estefani Lucio Santos
+Projeto desenvolvido por Estefani Lucio dos Santos, para fins de estudo e portfólio.
 
